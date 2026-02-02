@@ -117,7 +117,7 @@ const RecurrencePatternGenerator = () => {
     <div className="recurrence-form">
       <div className="form-group">
         <label htmlFor="pattern">Recurrence Pattern</label>
-        <select id="pattern" value={"daily"} onChange={handlePatternChange}>
+        <select id="pattern" value={pattern} onChange={handlePatternChange}>
           <option value="daily">Daily</option>
           <option value="weekly">Weekly</option>
           <option value="monthly">Monthly</option>
