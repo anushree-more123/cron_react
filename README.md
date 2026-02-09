@@ -61,3 +61,7 @@ Ensure you have the following installed:
    ```bash
    npm run dev
    ```
+
+## Application Output
+
+![App Output](output/screenshot.png)
